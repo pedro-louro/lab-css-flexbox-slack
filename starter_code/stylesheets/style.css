@@ -303,11 +303,11 @@ main a {
 .footer-icons {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  justify-content: space-around;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
   padding-left: 0;
-  list-style-position: inside;
+  /* list-style-position: inside; */
   
 }
 
@@ -325,5 +325,8 @@ main a {
     width: 0px;
     height: 0px;
   }
-  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
